@@ -2,7 +2,7 @@
 
 #define bzero(p, size) (void)memset((p), 0, (size))
 
-void Shell(int sock)
+void shell(int sock)
 {
 	char buffer[1024];
 	char container[1024];
